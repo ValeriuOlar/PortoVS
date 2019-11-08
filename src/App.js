@@ -13,7 +13,7 @@ function App() {
                 <a href="/">CV</a>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Info">
             <Navigation>
                 <a href="/">Link</a>
                 <a href="/">Link</a>
