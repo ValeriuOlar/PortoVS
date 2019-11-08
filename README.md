@@ -4,9 +4,9 @@ An personal portofolio
 
 ## UI integration
 
-https://tleunen.github.io/react-mdl/ 
-https://react-bootstrap.github.io/
-https://material-ui.com/
+[ReactMDL](https://tleunen.github.io/react-mdl/)
+[Bootstrap](https://react-bootstrap.github.io/)
+[Mateial-UI](https://material-ui.com/)
 
-http://github.com - automatic!
+
 [GitHub](http://github.com)
