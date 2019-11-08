@@ -1,6 +1,6 @@
 ## PortoVS
 
-An personal portofolio
+Personal portofolio -> VStability
 
 ## UI integration
 
@@ -9,4 +9,3 @@ An personal portofolio
 [Mateial-UI](https://material-ui.com/)
 
 
-[GitHub](http://github.com)
