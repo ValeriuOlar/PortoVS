@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,10 +12,10 @@ function App() {
     <Layout>
         <Header title="VStability" scroll>
             <Navigation>
-                <a href="/">Contact</a>
-                <a href="/">Projects</a>
-                <a href="/">GitHub</a>
-                <a href="/">CV</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Info">
