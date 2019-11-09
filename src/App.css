@@ -23,9 +23,16 @@ background: linear-gradient(to right, #1ba062, #1f4037); /* W3C, IE 10+/ Edge, F
   font-size: 66px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 .text-banner hr {
   border-top: 5px dotted white;
-  width: 50%;
+  width: 60%;
   margin: auto;
+}
+.text-banner p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
 }

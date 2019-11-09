@@ -19,7 +19,7 @@ class Landing extends Component {
 
                             <hr/>
 
-                            <p>HTML/CSS \ Bootstrap | JavaScript | React/React Native | NodeJS | Express | MongoDB | Python | Django/Flask </p>
+                            <p>HTML/CSS | Bootstrap | JavaScript | React/React Native | NodeJS | Express | MongoDB | Python | Django/Flask </p>
                         </div>
                     </Cell>
                 </Grid>
