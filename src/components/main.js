@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Switch, Route } from 'react-router-dom';
 import LandingPage from '.landingpage';
 
 const Main = () => {
