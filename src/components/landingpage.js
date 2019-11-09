@@ -20,6 +20,11 @@ class Landing extends Component {
                             <hr/>
 
                             <p>HTML/CSS | Bootstrap | JavaScript | React/React Native | NodeJS | Express | MongoDB | Python | Django/Flask </p>
+                       <div className="social-links">
+                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square"  aria-hidden="true"/>
+                            </a>
+                       </div>
                         </div>
                     </Cell>
                 </Grid>
