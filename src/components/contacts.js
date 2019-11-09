@@ -1,10 +1,13 @@
 import React, {Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
 class Contacts extends Component {
     render() {
         return(
-            <div><h1>Contacts Page</h1></div>
-        )
+            <div className="contactme-body">
+                
+            </div>
+            )
     }
 }
 
