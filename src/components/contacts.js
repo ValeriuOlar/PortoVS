@@ -4,10 +4,13 @@ import { Grid, Cell } from 'react-mdl';
 class Contacts extends Component {
     render() {
         return(
-            <div className="contactme-body">
-                
+            <div className="contact-body">
+                <Grid className="contact-grid">
+                    <Cell col={6}>half page</Cell>
+                    <Cell col={6}>half page</Cell>
+                </Grid>
             </div>
-            )
+        )
     }
 }
 

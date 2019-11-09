@@ -17,6 +17,19 @@ height: 100%;
 .projects-grid{
   display: flex;
 }
+/* Contact page css */
+.contact-body{
+  margin: auto;
+  background: rgb(116, 207, 151);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+/* Contact page css */
+
+/* Landing page css */
 .img-avatar {
   height: 250px;
   padding-top: 5em;
@@ -43,6 +56,8 @@ height: 100%;
   font-size: 20px;
   padding: 1em;
 }
+/* Landing page css */
+
 .social-links {
    display: flex;
    justify-content: space-between;
