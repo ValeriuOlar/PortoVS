@@ -9,4 +9,5 @@ Personal portofolio -> VStability
 [Mateial-UI](https://material-ui.com/),    
 [UI Gradients](https://uigradients.com/),    
 [FontAwsomeCDN](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css),   
-[Fonts](https://fontawesome.com/start)
+[Fonts](https://fontawesome.com/start),    
+[fonsts&Image](https://fontawesome.com/v4.7.0/get-started/)
