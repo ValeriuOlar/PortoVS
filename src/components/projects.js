@@ -10,31 +10,25 @@ class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <div>
-                    <h1>This is React.js</h1> 
-                </div>
+                <div><h1>This is React.js</h1></div>
             )
         }else if(this.state.activeTab === 1) {
             return (
-            <div><h1>This is React</h1></div>
+            <div><h1>This is Angular</h1></div>
             )
         }else if(this.state.activeTab === 2) {
             return (
-            <div><h1>This is Angular</h1></div>
+            <div><h1>This is Vue.JS</h1></div>
             )
         }else if(this.state.activeTab === 3) {
             return (
-            <div><h1>This is Vue.JS </h1></div>
+            <div><h1>This is MongoBD</h1></div>
             )
         }else if(this.state.activeTab === 4) {
             return (
-            <div><h1>This is MongoBD</h1></div>
-            )
-        }else if(this.state.activeTab === 5) {
-            return (
             <div><h1>This is Java</h1></div>
             )
-        }else if(this.state.activeTab === 6) {
+        }else if(this.state.activeTab === 5) {
             return (
             <div><h1>This is Python</h1></div>
             )
@@ -55,7 +49,11 @@ class Projects extends Component {
                 </Tabs>
             
             <section className="projects-grid">
-                {this.toggleCategories()}
+                <Grid className="projects-grid">
+                    <Cell col={12}>
+                    <div className="content">{this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
             </section>
             </div>
         )
