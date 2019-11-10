@@ -1,5 +1,5 @@
 import React, {Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent  } from 'react-mdl';
 
 class Contacts extends Component {
     render() {
@@ -18,7 +18,21 @@ class Contacts extends Component {
                     <Cell col={6}>
                         <h2>Contact Me</h2> 
                         <hr/>
-                        
+                       <div className="contact-list">
+                       <List>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent icon="person"></ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent icon="person"></ListItemContent>
+                            </ListItem>
+                        </List>
+                       </div>
                     </Cell>
                 </Grid>
             </div>
