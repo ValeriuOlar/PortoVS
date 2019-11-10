@@ -18,14 +18,25 @@ height: 100%;
   display: flex;
 }
 /* Contact page css */
-.contact-body{
+.contact-body {
   margin: auto;
-  background: rgb(116, 207, 151);
+  background: gray;
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+}
+
+.contact-grid {
+ text-align: center;
+ justify-content: center;
+ width: 80%;
+ height: 550px;
+ background-color: antiquewhite;
+ color: black;
+ border: 2px solid red;
+ margin-bottom: 20px;
 }
 /* Contact page css */
 
