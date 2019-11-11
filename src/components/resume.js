@@ -1,9 +1,12 @@
 import React, {Component } from 'react';
-
+import {Grid, Cell } from 'react-mdl';
 class Resume extends Component {
     render() {
         return(
-            <div><h1>Resume Page</h1></div>
+            <div>
+                <Cell col={4}>Left Side</Cell>
+                <Cell className="resume-right-col" col={8}>Rights Side</Cell>
+            </div>
         )
     }
 }

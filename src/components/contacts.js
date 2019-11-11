@@ -21,28 +21,28 @@ class Contacts extends Component {
                        <div className="contact-list">
                        <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/> 
                                     (778) 745-3132
                                 </ListItemContent>
                             </ListItem>
                             
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-fax" aria-hidden="true"/> 
                                     (778) 745-3132
                                 </ListItemContent>
                             </ListItem>
                             
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/> 
                                     someone@example.com
-                                </ListItemContent>
+                                </ListItemContent>m
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-skype" aria-hidden="true"/> 
                                     MySkypeId
                                 </ListItemContent>
