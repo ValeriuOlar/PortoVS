@@ -1,5 +1,7 @@
 import React, {Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
+import Education from './education';
+
 class Resume extends Component {
     render() {
         return(
@@ -27,9 +29,16 @@ class Resume extends Component {
                         <h5>Address</h5>
                         <p>Lorem Ipsum is simply dummy text</p>
                         <h5>Phone</h5>
-                        <p>(231) 1314 123 </p>
+                        <p>(231) 1314 123</p>
+                        <h5>Email</h5>
+                        <p>someone@example.com</p>
+                        <h5>Web</h5>
+                        <p>mywebiste.ie</p>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 </Cell>
-                <Cell className="resume-right-col" col={8}>Rights Side</Cell>
+                <Cell className="resume-right-col" col={8}>
+                    <h2>Education</h2>
+                </Cell>
              </Grid>
             </div>
         )
