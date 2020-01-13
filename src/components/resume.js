@@ -2,6 +2,7 @@ import React, {Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experiece from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
     render() {
@@ -19,11 +20,11 @@ class Resume extends Component {
                     <h2 style={{paddingTop:'2em'}}>Valeriu Olariu</h2>
                     <h4 style={{color: 'grey'}}>Programer</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                          and more recently with desktop publishing software like Aldus PageMaker including vers</p>
                          <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
@@ -42,22 +43,22 @@ class Resume extends Component {
                     startYear={2015}
                     endYear={2019}
                     schoolName="NCIRL"
-                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                      and more recently with desktop publishing software like Aldus PageMaker including vers"
                     />
                      <Education
                     startYear={2019}
                     endYear={2019}
                     schoolName="Code Institute"
-                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                      and more recently with desktop publishing software like Aldus PageMaker including vers"
                     />
                     <hr style={{borderTop: '3p solid #e22947'}}/>
@@ -67,22 +68,22 @@ class Resume extends Component {
                      startYear={2018}
                      endYear={2018}
                      jobName="Developer"
-                     jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                       and more recently with desktop publishing software like Aldus PageMaker including vers"
                      />
                      <Experiece
                      startYear={2019}
                      endYear={2019}
                      jobName="Developer"
-                     jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                       and more recently with desktop publishing software like Aldus PageMaker including vers"
                      />
                      <hr style={{borderTop: '3p solid #e22947'}}/>
