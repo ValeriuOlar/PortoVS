@@ -1,6 +1,6 @@
 import React, {Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
-import me from '../img/me.jpg';
+import Me from '../img/me.jpg';
 
 
 
@@ -12,7 +12,7 @@ class Landing extends Component {
                     <Cell col={12}>
                         <img
                         src={"me"}
-                        alt="avatar"
+                        alt="me"
                         className="img-avatar"
                         />
                         <div className="text-banner">
