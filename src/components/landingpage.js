@@ -1,6 +1,6 @@
 import React, {Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
-import me from '../me.jpg';
+import me from '../img/me.jpg';
 
 
 
