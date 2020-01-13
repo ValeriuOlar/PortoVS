@@ -88,6 +88,8 @@ class Resume extends Component {
                      />
                      <hr style={{borderTop: '3p solid #e22947'}}/>
                     <h2>Skills</h2>
+                    <Skills/>
+
                 </Cell>
              </Grid>
             </div>
